@@ -2080,7 +2080,7 @@ Subscribe Area CSS
 Footer Area CSS
 =================================================*/
 .footer-section {
-  background-color: #fbd4d4;
+  background-color: #ff0000;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2107,7 +2107,7 @@ Footer Area CSS
   list-style-type: none;
   font-size: 18px;
   font-weight: 400;
-  color: #000;
+  color: #fff;
   padding-left: 30px;
   margin-bottom: 16px;
 }
@@ -2117,20 +2117,20 @@ Footer Area CSS
 }
 
 .single-footer-widget .footer-contact-info a {
-  color: #000;
+  color: #fff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .single-footer-widget .footer-contact-info a:hover {
-  color: #ff0000;
+  color: #000;
 }
 
 .single-footer-widget .footer-contact-info i {
   position: absolute;
   left: 0;
   font-size: 20px;
-  color: #ff0000;
+  color: #000;
   line-height: unset;
 }
 
@@ -2138,7 +2138,7 @@ Footer Area CSS
   position: relative;
   margin-left: 10px;
   font-size: 24px;
-  color: #000;
+  color: #fff;
   margin-bottom: 30px;
 }
 
@@ -2147,7 +2147,7 @@ Footer Area CSS
   position: absolute;
   height: 100%;
   width: 2px;
-  background-color: #000;
+  background-color: #fff;
   left: -12px;
 }
 
@@ -2170,25 +2170,25 @@ Footer Area CSS
 }
 
 .single-footer-widget .quick-links li a {
-  color: #000;
+  color: #fff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .single-footer-widget .quick-links li i {
   font-size: 18px;
-  color: #000;
+  color: #fff;
   margin-right: 5px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .single-footer-widget .quick-links li:hover a {
-  color: #ff0000;
+  color: #000;
 }
 
 .single-footer-widget .quick-links li:hover i {
-  color: #ff0000;
+  color: #000;
 }
 
 .single-footer-widget .blog-info {
@@ -2208,7 +2208,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .blog-info .image .text {
-  background-color: #ff0000;
+  background-color: #fff;
   position: absolute;
   bottom: 5px;
   right: 5px;
