@@ -43,17 +43,17 @@ jQuery(function ($) {
 	
 	// Home Slider
 	$('.home-slider').owlCarousel({
-		loop:true,
+		loop:false,
 		margin:0,
 		nav:true,
-		mouseDrag: true,
+		mouseDrag: false,
 		items:1,
-		autoHeight:true,
+		autoHeight:false,
 		dots: false,
-		dotData:true,
-		autoplay: true,
+		dotData:false,
+		autoplay: false,
 		smartSpeed: 500,
-		autoplayHoverPause: true,
+		autoplayHoverPause: false,
 		navText: [
 			"<i class='flaticon-left-arrow'></i>",
 			"<i class='flaticon-right-arrow'></i>",
@@ -164,11 +164,11 @@ jQuery(function ($) {
 	
 	// Team Slider
 	$('.team-slider').owlCarousel({
-		loop: true,
+		loop: false,
 		nav: false,
-		dots: true,
-		autoplayHoverPause: true,
-		autoplay: true,
+		dots: false,
+		autoplayHoverPause: false,
+		autoplay: false,
 		smartSpeed: 1000,
 		margin: 0,
 		navText: [
@@ -196,11 +196,11 @@ jQuery(function ($) {
 
 	// Events Slider
 	$('.events-slider').owlCarousel({
-		loop: true,
+		loop: false,
 		nav: false,
-		dots: true,
-		autoplayHoverPause: true,
-		autoplay: true,
+		dots: false,
+		autoplayHoverPause: false,
+		autoplay: false,
 		smartSpeed: 1000,
 		margin: 20,
 		navText: [

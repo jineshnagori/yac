@@ -278,7 +278,7 @@ Navbar Area CSS
 .main-nav nav .navbar-nav .nav-item a {
   position: relative;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 20px;
   color: #000;
   text-transform: capitalize;
 }

@@ -1,6 +1,11 @@
 /*
 Responsive CSS
 ============================*/
+@media (min-width: 767px) {
+  .m-join {
+    display: none;
+  }
+}
 @media only screen and (max-width: 767px) {
   .default-btn {
     font-size: 14px;
