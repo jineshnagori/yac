@@ -903,14 +903,6 @@ Banner Area CSS
   background-image: url(../img/slider/slider-bg1.jpg);
 }
 
-.home-slider .home-item.item-bg2 {
-  background-image: url(../img/slider/slider-bg2.jpg);
-}
-
-.home-slider .home-item.item-bg3 {
-  background-image: url(../img/slider/slider-bg1.jpg);
-}
-
 .home-slider .home-item .slider-content {
   max-width: 840px;
   margin: auto;

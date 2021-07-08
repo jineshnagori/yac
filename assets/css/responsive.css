@@ -1,11 +1,6 @@
 /*
 Responsive CSS
 ============================*/
-@media (min-width: 767px) {
-  #joinus {
-    display: none;
-  }
-}
 @media only screen and (max-width: 767px) {
   .default-btn {
     font-size: 14px;
@@ -1161,6 +1156,10 @@ Responsive CSS
   }
   .nav-area .others-option {
     display: none;
+  }
+  #m-btn {
+    /* display: none; */
+    position: relative;
   }
   .mobile-nav nav .navbar-nav {
     height: 325px;
