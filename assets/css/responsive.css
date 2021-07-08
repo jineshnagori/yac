@@ -1,6 +1,11 @@
 /*
 Responsive CSS
 ============================*/
+@media (min-width: 767px) {
+  #joinus {
+    display: none;
+  }
+}
 @media only screen and (max-width: 767px) {
   .default-btn {
     font-size: 14px;
@@ -135,10 +140,10 @@ Responsive CSS
     font-size: 16px;
     margin-right: 10px;
   }
-  .home-slider.owl-theme .owl-nav [class*=owl-] {
+  .home-slider.owl-theme .owl-nav [class*="owl-"] {
     top: 90%;
     -webkit-transform: translateY(-90%);
-            transform: translateY(-90%);
+    transform: translateY(-90%);
   }
   .top-services-section {
     padding-bottom: 20px;
@@ -377,13 +382,13 @@ Responsive CSS
   .user-area-all-style .contact-form-action .forget {
     margin-bottom: 30px !important;
     -ms-flex-preferred-size: block;
-        flex-basis: block;
+    flex-basis: block;
   }
   .coming-soon-area .coming-soon-content {
     height: 100%;
     padding: 30px;
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   .coming-soon-area .coming-soon-content h1 {
     font-size: 25px;
@@ -443,7 +448,12 @@ Responsive CSS
     margin-right: 0;
     margin-bottom: 5px;
   }
-  .blog-details-area .blog-details-desc .article-content .entry-meta ul li::before {
+  .blog-details-area
+    .blog-details-desc
+    .article-content
+    .entry-meta
+    ul
+    li::before {
     display: none;
   }
   .blog-details-area .blog-details-desc .article-content h3 {
@@ -501,7 +511,10 @@ Responsive CSS
   .blog-details-area .comments-area .comment-respond .comment-reply-title {
     font-size: 19px;
   }
-  .blog-details-area .comments-area .comment-respond .comment-reply-title::before {
+  .blog-details-area
+    .comments-area
+    .comment-respond
+    .comment-reply-title::before {
     left: -20px;
   }
   .blog-details-area .comments-area .comment-respond .comment-form-author {
@@ -755,10 +768,10 @@ Responsive CSS
     font-size: 16px;
     margin-right: 10px;
   }
-  .home-slider.owl-theme .owl-nav [class*=owl-] {
+  .home-slider.owl-theme .owl-nav [class*="owl-"] {
     top: 90%;
     -webkit-transform: translateY(-90%);
-            transform: translateY(-90%);
+    transform: translateY(-90%);
   }
   .top-services-section {
     padding-bottom: 20px;
@@ -1058,7 +1071,11 @@ Responsive CSS
     padding-right: 20px;
     width: 505px;
   }
-  .sidebar-modal .sidebar-contact-area .sidebar-contact-info .contact-info-content h2 {
+  .sidebar-modal
+    .sidebar-contact-area
+    .sidebar-contact-info
+    .contact-info-content
+    h2 {
     font-size: 20px;
   }
   .about-image .about-shape {
@@ -1117,7 +1134,7 @@ Responsive CSS
   .mean-container .mean-bar {
     background-color: #fff;
     -webkit-box-shadow: 0px 20px 20px 20px rgba(0, 0, 0, 0.05);
-            box-shadow: 0px 20px 20px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 20px 20px 20px rgba(0, 0, 0, 0.05);
     height: 70px;
   }
   .mean-container a.meanmenu-reveal {
