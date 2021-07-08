@@ -163,36 +163,36 @@ jQuery(function ($) {
 	});
 	
 	// Team Slider
-	$('.team-slider').owlCarousel({
-		loop: false,
-		nav: false,
-		dots: false,
-		autoplayHoverPause: false,
-		autoplay: false,
-		smartSpeed: 1000,
-		margin: 0,
-		navText: [
-			"<i class='flaticon-left-arrow'></i>",
-			"<i class='flaticon-right-arrow'></i>"
-		],
-		responsive: {
-			0: {
-				items: 1
-			},
-			576: {
-				items: 2
-			},
-			768: {
-				items: 3
-			},
-			992: {
-				items: 3
-			},
-			1200: {
-				items: 4
-			}
-		}
-	});
+	// $('.team-slider').owlCarousel({
+	// 	loop: false,
+	// 	nav: false,
+	// 	dots: false,
+	// 	autoplayHoverPause: false,
+	// 	autoplay: false,
+	// 	smartSpeed: 1000,
+	// 	margin: 0,
+	// 	navText: [
+	// 		"<i class='flaticon-left-arrow'></i>",
+	// 		"<i class='flaticon-right-arrow'></i>"
+	// 	],
+	// 	responsive: {
+	// 		0: {
+	// 			items: 1
+	// 		},
+	// 		576: {
+	// 			items: 2
+	// 		},
+	// 		768: {
+	// 			items: 3
+	// 		},
+	// 		992: {
+	// 			items: 3
+	// 		},
+	// 		1200: {
+	// 			items: 4
+	// 		}
+	// 	}
+	// });
 
 	// Events Slider
 	// $('.events-slider').owlCarousel({
