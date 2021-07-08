@@ -195,33 +195,28 @@ jQuery(function ($) {
 	});
 
 	// Events Slider
-	$('.events-slider').owlCarousel({
-		loop: false,
-		nav: false,
-		dots: false,
-		autoplayHoverPause: false,
-		autoplay: false,
-		smartSpeed: 1000,
-		margin: 20,
-		navText: [
-			"<i class='flaticon-left'></i>",
-			"<i class='flaticon-right'></i>"
-		],
-		responsive: {
-			0: {
-				items: 1
-			},
-			576: {
-				items: 1
-			},
-			768: {
-				items: 2
-			},
-			1200: {
-				items: 2
-			}
-		}
-	});
+	// $('.events-slider').owlCarousel({
+	// 	loop: false,
+	// 	dots: false,
+	// 	autoplayHoverPause: false,
+	// 	autoplay: false,
+	// 	smartSpeed: 1000,
+	// 	margin: 20,
+	// 	responsive: {
+	// 		0: {
+	// 			items: 1
+	// 		},
+	// 		576: {
+	// 			items: 1
+	// 		},
+	// 		768: {
+	// 			items: 2
+	// 		},
+	// 		1200: {
+	// 			items: 2
+	// 		}
+	// 	}
+	// });
 	
 	// Sidebar Example Demo Modal
 	$(".sidebar-demo-control").on('click',  function() {
